@@ -1,0 +1,32 @@
+.todo {
+    display: flex;
+    padding: 10px 0;
+    text-align: center;
+    width: 15%;
+    margin: 0 auto;
+}
+
+.text {
+    display: block;
+}
+
+.button {
+    height: 30px;
+    align-items: center;
+    width: 100px;
+    margin: 15px 0 0 20px;
+    background-color: aqua;
+    border: 2px black solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px gray;
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translateX(2px);
+    transform: translateY(2px);
+}
+
+.input {
+    width: 200px;
+}
